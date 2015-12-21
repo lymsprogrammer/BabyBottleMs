@@ -20,11 +20,26 @@ PODS:
   - AFNetworking/UIKit (2.3.1):
     - AFNetworking/NSURLConnection
     - AFNetworking/NSURLSession
+  - AVOSCloud (3.0.3)
+  - AVOSCloudSNS (3.0.3):
+    - AVOSCloud
+  - SDWebImage (3.7.2):
+    - SDWebImage/Core (= 3.7.2)
+  - SDWebImage/Core (3.7.2)
+  - SIAlertView (1.3)
 
 DEPENDENCIES:
   - AFNetworking (~> 2.3.1)
+  - AVOSCloud (= 3.0.3)
+  - AVOSCloudSNS (= 3.0.3)
+  - SDWebImage (= 3.7.2)
+  - SIAlertView (= 1.3)
 
 SPEC CHECKSUMS:
   AFNetworking: 05b9f6e3aa5ac45bc383b4bb108ef338080a26c7
+  AVOSCloud: 48b94343601a582928e560d734caa0c8dc75a612
+  AVOSCloudSNS: e296b3dad06de4385a106b98cbb3d6831cd6b893
+  SDWebImage: 71b7cdc1d1721d6a82ed62889030225f2c249e29
+  SIAlertView: 20c794b55eaf44d888773ea51647cf8907723919
 
 COCOAPODS: 0.39.0

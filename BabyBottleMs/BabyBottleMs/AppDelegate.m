@@ -7,6 +7,7 @@
 //
 
 #import "AppDelegate.h"
+#import <AVOSCloud/AVOSCloud.h>
 
 @interface AppDelegate ()
 
@@ -17,6 +18,55 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    
+    // applicationId 即 App Id，clientKey 是 App Key。
+    [AVOSCloud setApplicationId:@"VJn6W5s3srVbsFm1OvUWm5MB"
+                      clientKey:@"y7wJAK2QYJk84tVaaBhX0uT7"];
+    
+    //如果想跟踪统计应用的打开情况，后面还可以添加下列代码：
+    [AVAnalytics trackAppOpenedWithLaunchOptions:launchOptions];
+    
+    
+//    数据存储
+//    AVObject *post = [AVObject objectWithClassName:@"TestObject22"];
+//    [post setObject:@"Hello,World!~~" forKey:@"w1ords"];
+//    [post setObject:@"Hello,22World!~~" forKey:@"w22ords"];
+//    [post setObject:@"Hello,33World!~~" forKey:@"wo2222rds"];
+//    
+//    
+//    [post saveInBackgroundWithBlock:^(BOOL succeeded, NSError *error)
+//     {
+//        if (succeeded)
+//        {
+//            NSLog(@"保存成功了");
+//        }
+//    }];
+    
+    //数据存储
+    AVObject *post = [AVObject objectWithClassName:@"Post"];
+    [post setObject:@"每个 Objective-C 程序员必备的 8 个开发工具" forKey:@"content"];
+    [post setObject:@"LeanCloud官方客服" forKey:@"pubUser"];
+    [post setObject:[NSNumber numberWithInt:1435541999] forKey:@"pubTimestamp"];
+    [post save];
+    [post saveInBackground]; //可在后台线程中保存之前的 AVObject 实例：
+    
+    
+    //取数据
+    AVQuery *query = [AVQuery queryWithClassName:@"Post"];
+    AVObject *getPost = [query getObjectWithId:@"5677b5e760b2298f1231551a"];
+    
+    int timestamp = [[getPost objectForKey:@"pubTimestamp"] intValue];
+    NSString *userName = [getPost objectForKey:@"pubUser"];
+    NSString *content = getPost[@"content"];
+    
+    //获取三个特殊属性：
+    NSString *objectId = post.objectId;
+    NSDate *updatedAt = post.updatedAt;
+    NSDate *createdAt = post.createdAt;
+    
+    
+    
+    
     return YES;
 }
 
