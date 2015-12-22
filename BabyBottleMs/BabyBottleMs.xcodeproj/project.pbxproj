@@ -10,11 +10,11 @@
 		4E2B496A1C27ACD400E77AF7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E2B49691C27ACD400E77AF7 /* main.m */; };
 		4E2B496D1C27ACD400E77AF7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E2B496C1C27ACD400E77AF7 /* AppDelegate.m */; };
 		4E2B49701C27ACD400E77AF7 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E2B496F1C27ACD400E77AF7 /* ViewController.m */; };
-		4E2B49731C27ACD400E77AF7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4E2B49711C27ACD400E77AF7 /* Main.storyboard */; };
 		4E2B49751C27ACD400E77AF7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4E2B49741C27ACD400E77AF7 /* Assets.xcassets */; };
-		4E2B49781C27ACD400E77AF7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4E2B49761C27ACD400E77AF7 /* LaunchScreen.storyboard */; };
 		4E2B49831C27ACD400E77AF7 /* BabyBottleMsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E2B49821C27ACD400E77AF7 /* BabyBottleMsTests.m */; };
 		4E2B498E1C27ACD400E77AF7 /* BabyBottleMsUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E2B498D1C27ACD400E77AF7 /* BabyBottleMsUITests.m */; };
+		4EC13B881C295C3100403C84 /* catchfish_paodantubiao_2.png in Resources */ = {isa = PBXBuildFile; fileRef = 4EC13B871C295C3100403C84 /* catchfish_paodantubiao_2.png */; };
+		4EC13B8B1C295E7700403C84 /* UIViewController+ViewCon.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EC13B8A1C295E7700403C84 /* UIViewController+ViewCon.m */; };
 		F6E24390D9319F38D336024C /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 053028619DCB912D2A2EAFF5 /* libPods.a */; };
 /* End PBXBuildFile section */
 
@@ -44,9 +44,7 @@
 		4E2B496C1C27ACD400E77AF7 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		4E2B496E1C27ACD400E77AF7 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		4E2B496F1C27ACD400E77AF7 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		4E2B49721C27ACD400E77AF7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		4E2B49741C27ACD400E77AF7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		4E2B49771C27ACD400E77AF7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4E2B49791C27ACD400E77AF7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4E2B497E1C27ACD400E77AF7 /* BabyBottleMsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BabyBottleMsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4E2B49821C27ACD400E77AF7 /* BabyBottleMsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BabyBottleMsTests.m; sourceTree = "<group>"; };
@@ -54,6 +52,9 @@
 		4E2B49891C27ACD400E77AF7 /* BabyBottleMsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BabyBottleMsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4E2B498D1C27ACD400E77AF7 /* BabyBottleMsUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BabyBottleMsUITests.m; sourceTree = "<group>"; };
 		4E2B498F1C27ACD400E77AF7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4EC13B871C295C3100403C84 /* catchfish_paodantubiao_2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = catchfish_paodantubiao_2.png; sourceTree = "<group>"; };
+		4EC13B891C295E7700403C84 /* UIViewController+ViewCon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+ViewCon.h"; sourceTree = "<group>"; };
+		4EC13B8A1C295E7700403C84 /* UIViewController+ViewCon.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+ViewCon.m"; sourceTree = "<group>"; };
 		8E427E30E3E209394E1786D1 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -121,11 +122,12 @@
 				4E2B496C1C27ACD400E77AF7 /* AppDelegate.m */,
 				4E2B496E1C27ACD400E77AF7 /* ViewController.h */,
 				4E2B496F1C27ACD400E77AF7 /* ViewController.m */,
-				4E2B49711C27ACD400E77AF7 /* Main.storyboard */,
+				4EC13B891C295E7700403C84 /* UIViewController+ViewCon.h */,
+				4EC13B8A1C295E7700403C84 /* UIViewController+ViewCon.m */,
 				4E2B49741C27ACD400E77AF7 /* Assets.xcassets */,
-				4E2B49761C27ACD400E77AF7 /* LaunchScreen.storyboard */,
 				4E2B49791C27ACD400E77AF7 /* Info.plist */,
 				4E2B49681C27ACD400E77AF7 /* Supporting Files */,
+				4EC13B861C295C3100403C84 /* Ressource */,
 			);
 			path = BabyBottleMs;
 			sourceTree = "<group>";
@@ -154,6 +156,14 @@
 				4E2B498F1C27ACD400E77AF7 /* Info.plist */,
 			);
 			path = BabyBottleMsUITests;
+			sourceTree = "<group>";
+		};
+		4EC13B861C295C3100403C84 /* Ressource */ = {
+			isa = PBXGroup;
+			children = (
+				4EC13B871C295C3100403C84 /* catchfish_paodantubiao_2.png */,
+			);
+			path = Ressource;
 			sourceTree = "<group>";
 		};
 		EA5A2AA9EF5EB4EB5B3C26D5 /* Frameworks */ = {
@@ -270,9 +280,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4E2B49781C27ACD400E77AF7 /* LaunchScreen.storyboard in Resources */,
 				4E2B49751C27ACD400E77AF7 /* Assets.xcassets in Resources */,
-				4E2B49731C27ACD400E77AF7 /* Main.storyboard in Resources */,
+				4EC13B881C295C3100403C84 /* catchfish_paodantubiao_2.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -345,6 +354,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4EC13B8B1C295E7700403C84 /* UIViewController+ViewCon.m in Sources */,
 				4E2B49701C27ACD400E77AF7 /* ViewController.m in Sources */,
 				4E2B496D1C27ACD400E77AF7 /* AppDelegate.m in Sources */,
 				4E2B496A1C27ACD400E77AF7 /* main.m in Sources */,
@@ -381,25 +391,6 @@
 			targetProxy = 4E2B498A1C27ACD400E77AF7 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
-
-/* Begin PBXVariantGroup section */
-		4E2B49711C27ACD400E77AF7 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				4E2B49721C27ACD400E77AF7 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		4E2B49761C27ACD400E77AF7 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				4E2B49771C27ACD400E77AF7 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		4E2B49901C27ACD400E77AF7 /* Debug */ = {

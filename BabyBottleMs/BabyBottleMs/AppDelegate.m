@@ -4,10 +4,12 @@
 //
 //  Created by Ms on 15/12/21.
 //  Copyright © 2015年 NaiBaNaiMa. All rights reserved.
-//
+//  https://leancloud.cn/data.html?appid=VJn6W5s3srVbsFm1OvUWm5MB#/
 
 #import "AppDelegate.h"
 #import <AVOSCloud/AVOSCloud.h>
+#import "UIViewController+ViewCon.h"
+
 
 @interface AppDelegate ()
 
@@ -16,8 +18,18 @@
 @implementation AppDelegate
 
 
-- (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
+- (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
+{
     // Override point for customization after application launch.
+    
+    self.window = [[UIWindow alloc]initWithFrame:[[UIScreen mainScreen]bounds]];
+    self.window.backgroundColor = [UIColor blueColor];
+    [self.window makeKeyAndVisible];
+    
+    ViewCon *listen = [[ViewCon alloc]init];
+    UINavigationController *naVC = [[UINavigationController alloc]initWithRootViewController:listen];
+    self.window.rootViewController = naVC;
+    
     
     // applicationId 即 App Id，clientKey 是 App Key。
     [AVOSCloud setApplicationId:@"VJn6W5s3srVbsFm1OvUWm5MB"
