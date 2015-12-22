@@ -15,6 +15,7 @@
 		4E2B498E1C27ACD400E77AF7 /* BabyBottleMsUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E2B498D1C27ACD400E77AF7 /* BabyBottleMsUITests.m */; };
 		4EC13B881C295C3100403C84 /* catchfish_paodantubiao_2.png in Resources */ = {isa = PBXBuildFile; fileRef = 4EC13B871C295C3100403C84 /* catchfish_paodantubiao_2.png */; };
 		4EC13B8B1C295E7700403C84 /* UIViewController+ViewCon.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EC13B8A1C295E7700403C84 /* UIViewController+ViewCon.m */; };
+		4EC13B8D1C29666100403C84 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4EC13B8C1C29666100403C84 /* LaunchScreen.storyboard */; };
 		F6E24390D9319F38D336024C /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 053028619DCB912D2A2EAFF5 /* libPods.a */; };
 /* End PBXBuildFile section */
 
@@ -55,6 +56,7 @@
 		4EC13B871C295C3100403C84 /* catchfish_paodantubiao_2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = catchfish_paodantubiao_2.png; sourceTree = "<group>"; };
 		4EC13B891C295E7700403C84 /* UIViewController+ViewCon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+ViewCon.h"; sourceTree = "<group>"; };
 		4EC13B8A1C295E7700403C84 /* UIViewController+ViewCon.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+ViewCon.m"; sourceTree = "<group>"; };
+		4EC13B8C1C29666100403C84 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8E427E30E3E209394E1786D1 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -128,6 +130,7 @@
 				4E2B49791C27ACD400E77AF7 /* Info.plist */,
 				4E2B49681C27ACD400E77AF7 /* Supporting Files */,
 				4EC13B861C295C3100403C84 /* Ressource */,
+				4EC13B8C1C29666100403C84 /* LaunchScreen.storyboard */,
 			);
 			path = BabyBottleMs;
 			sourceTree = "<group>";
@@ -280,6 +283,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4EC13B8D1C29666100403C84 /* LaunchScreen.storyboard in Resources */,
 				4E2B49751C27ACD400E77AF7 /* Assets.xcassets in Resources */,
 				4EC13B881C295C3100403C84 /* catchfish_paodantubiao_2.png in Resources */,
 			);

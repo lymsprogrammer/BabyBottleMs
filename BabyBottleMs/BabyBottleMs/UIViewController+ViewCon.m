@@ -16,11 +16,11 @@
     
     self.automaticallyAdjustsScrollViewInsets = NO;
     
-    UILabel *label = [[UILabel alloc] init];
+    UILabel *label = [[UILabel alloc] initWithFrame:CGRectMake(100, 100, 222, 222)];
     label.text = @"哈哈哈";
-    label.textColor = [UIColor whiteColor];
+    label.textColor = [UIColor blueColor];
     label.font = [UIFont systemFontOfSize:20];
-    label.center = CGPointMake(100, 100);
+    label.center = CGPointMake(300, 500);
     [self.view addSubview:label];
 };
 
